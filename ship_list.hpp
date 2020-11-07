@@ -1,0 +1,4 @@
+#include <string>
+#include <array>
+const std::array<std::string,20> shortNames = {"DD", "DE", "CL", "CT", "CLT", "CA", "CAV", "BB", "BBV", "FBB", "CVL", "CV", "CVB", "SSV", "SS", "AV", "AS", "LHA", "AO", "AR"};
+const std::array<std::string,20> fullNames = {"Destroyer", "Coastal Defense Ship", "Light Cruiser", "Training Cruiser", "Torpedo Cruiser", "Heavy Cruiser", "Aviation Cruiser", "Battleship", "Aviation Battleship", "Fast Battleship", "Light Aircraft Carrier", "Regular Aircraft Carrier", "Armored Aircraft Carrier", "Submarine Aircraft Carrier", "Submarine", "Seaplane Tender", "Submarine Tender", "Amphibious Assault Ship", "Fleet Oiler", "Repair Ship"};
