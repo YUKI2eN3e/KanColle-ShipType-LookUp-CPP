@@ -4,7 +4,7 @@ project(KanColle_ShipType_LookUp VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(KanColle_ShipType_LookUp ShipTypeLookUp.cpp)
+add_executable(KanColle_ShipType_LookUp ShipTypeLookUp.cpp res/icon.o)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
